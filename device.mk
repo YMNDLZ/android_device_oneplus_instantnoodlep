@@ -59,3 +59,6 @@ $(call inherit-product, device/oneplus/sm8250-common/common.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/oneplus/instantnoodlep/instantnoodlep-vendor.mk)
+
+# Inherit GMS, Pixel Features, and Modules.
+$(call inherit-product, vendor/google/gms/config.mk)
