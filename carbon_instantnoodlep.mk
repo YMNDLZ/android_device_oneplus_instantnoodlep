@@ -27,6 +27,9 @@ $(call inherit-product, vendor/carbon/config/gsm.mk)
 # Inherit Carbon product configuration
 $(call inherit-product, vendor/carbon/config/common.mk)
 
+#Use default wallpaper resolution
+TARGET_USE_GENERIC_WALLPAPER := true
+
 PRODUCT_NAME := carbon_instantnoodlep
 PRODUCT_DEVICE := instantnoodlep
 PRODUCT_MANUFACTURER := OnePlus
